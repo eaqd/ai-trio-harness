@@ -1,5 +1,7 @@
 # ai-trio-harness: make Claude, Codex and Gemini work as one team
 
+**Watch it:** the 98-second walkthrough https://youtu.be/-zuHfz561ko and the 25-second Short https://youtube.com/shorts/CCFoWO5aifQ
+
 ## Result
 
 One command, three models, one report. A real run on 2026-11-25:
