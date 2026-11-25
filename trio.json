@@ -1,0 +1,19 @@
+{
+  "models": {
+    "claude": {"adapter": "claude"},
+    "codex": {"adapter": "codex"},
+    "gemini": {
+      "adapter": "gemini",
+      "model": "gemini-3.8-flash",
+      "openrouter_model": "google/gemini-3.8-flash"
+    }
+  },
+  "roles": {
+    "plan": ["claude", "codex", "gemini"],
+    "build": ["codex", "claude"],
+    "review": ["claude", "codex", "gemini"],
+    "research": ["gemini", "claude", "codex"],
+    "long_context": ["gemini", "claude"],
+    "judge": ["claude", "gemini", "codex"]
+  }
+}
